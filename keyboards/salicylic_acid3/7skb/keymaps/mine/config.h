@@ -19,7 +19,7 @@
 /* Select hand configuration */
 
 #define QUICK_TAP_TERM 0
-#define TAPPING_TERM 180
+#define TAPPING_TERM 130
 
 
 // ref: https://docs.qmk.fm/#/squeezing_avr?id=rulesmk-settings
