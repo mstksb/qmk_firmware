@@ -39,15 +39,15 @@ enum layer_number {
 #define _7SKB_LOWER_LAYOUT                                                                                                          \
     LAYOUT(                                                                                                                         \
                                                                                                                                     \
-        _______, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, XXXXXXX, _______,           \
+        _______, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5,             KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, XXXXXXX, _______,           \
                                                                                                                                     \
-        _______, XXXXXXX, XXXXXXX, XXXXXXX, JP_YEN, KC_CIRC, KC_HOME, KC_END, KC_PGUP, KC_PGDN, XXXXXXX, XXXXXXX, XXXXXXX, _______, \
+        _______, XXXXXXX, XXXXXXX, XXXXXXX, JP_YEN, KC_CIRC,    KC_HOME, KC_END, KC_PGUP, KC_PGDN, XXXXXXX, XXXXXXX, XXXXXXX, _______, \
                                                                                                                                     \
-        _______, XXXXXXX, XXXXXXX, XXXXXXX, KC_AT, KC_UNDS, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, XXXXXXX, XXXXXXX, _______,            \
+        _______, XXXXXXX, XXXXXXX, XXXXXXX, KC_AT, KC_UNDS,     KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, XXXXXXX, XXXXXXX, _______,            \
                                                                                                                                     \
-        _______, XXXXXXX, XXXXXXX, XXXXXXX, KC_AMPR, KC_MINS, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, JP_UNDS, _______, _______,        \
+        _______, KC_F21, KC_F22, KC_F23, KC_AMPR, KC_MINS,      KC_F23, KC_F22, KC_F21, XXXXXXX, JP_UNDS, _______, _______,        \
                                                                                                                                     \
-        _______, _______, _______, KC_TAB, _______, _______, _______, _______)
+        _______, _______, _______, KC_TAB,                      _______, _______, _______, _______)
 
 // [_RAISE] = LAYOUT(
 // //,-----------------------------------------------------|               |--------------------------------------------------------------------------------|
@@ -65,15 +65,15 @@ enum layer_number {
 #define _7SKB_RAISE_LAYOUT                                                                                                         \
     LAYOUT(                                                                                                                        \
                                                                                                                                    \
-        _______, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, XXXXXXX, _______,          \
+        _______, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5,             KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, XXXXXXX, _______,          \
                                                                                                                                    \
-        _______, XXXXXXX, KC_UP, XXXXXXX, XXXXXXX, XXXXXXX, KC_HOME, KC_END, KC_PGUP, KC_PGDN, XXXXXXX, XXXXXXX, XXXXXXX, _______, \
+        _______, XXXXXXX, KC_UP, XXXXXXX, XXXXXXX, XXXXXXX,     KC_HOME, KC_END, KC_PGUP, KC_PGDN, XXXXXXX, XXXXXXX, XXXXXXX, _______, \
                                                                                                                                    \
-        _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_ENT, XXXXXXX, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, XXXXXXX, XXXXXXX, _______,         \
+        _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_ENT, XXXXXXX,    KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, XXXXXXX, XXXXXXX, _______,         \
                                                                                                                                    \
-        _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, JP_UNDS, _______, _______,       \
+        _______, KC_F21, KC_F22, KC_F23, XXXXXXX, XXXXXXX,      KC_F23, KC_F22, KC_F21, XXXXXXX, JP_UNDS, _______, _______,       \
                                                                                                                                    \
-        _______, _______, _______, KC_ENT, KC_ENT, _______, _______, _______                                                       \
+        _______, _______, _______, KC_ENT,                      KC_ENT, _______, _______, _______                                                       \
                                                                                                                                    \
     )
 
